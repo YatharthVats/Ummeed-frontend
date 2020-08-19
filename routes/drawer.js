@@ -7,6 +7,7 @@ import React from "react";
 import AmbulanceStack from "./ambulanceStack";
 import HospitalStack from "./hospitalStack";
 import Home from "../screens/Home.js";
+import ContactStack from "./emergencyContactsStack";
 
 // drawer navigation options
 const Drawer = createDrawerNavigator();
@@ -18,6 +19,7 @@ const Navigator = () => {
         <Drawer.Screen name="Home" component={Home} />
         <Drawer.Screen name="Hospitals" component={HospitalStack} />
         <Drawer.Screen name="Ambulances" component={AmbulanceStack} />
+        <Drawer.Screen name="Emergency contacts" component={ContactStack} />
       </Drawer.Navigator>
     </NavigationContainer>
   );

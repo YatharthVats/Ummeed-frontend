@@ -60,6 +60,14 @@ const Home = ({ navigation }) => {
         title="Go to Hospitals"
         onPress={() => navigation.navigate("Hospitals")}
       />
+      <Button
+        title="Go to Ambulance Services"
+        onPress={() => navigation.navigate("Ambulances")}
+      />
+      <Button
+        title="Go to Emergency Contacts List"
+        onPress={() => navigation.navigate("Emergency contacts")}
+      />
       <Text>{text}</Text>
       <StatusBar style="auto" />
     </View>
